@@ -1,0 +1,161 @@
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/template-overviews/simple-sidebar)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+body {
+}
+
+.home-bg {
+background-image: url(../img/boxinghome.jpg);
+  background-size: 100% 100%
+}
+
+.boxers-bg {
+background-image: url(../img/boxinghome.jpg);
+  background-size: 100% 100%
+}
+
+.champions-bg {
+background-image: url(../img/boxingring.jpg);
+  background-size: 100% 100%
+}
+
+.results-bg {
+background-image: url(../img/boxingring.jpg);
+  background-size: 100% 100%
+}
+
+.venues-bg {
+background-image: url(../img/boxinghome.jpg);
+  background-size: 100% 100%
+}
+
+.upcoming-bg {
+background-image: url(../img/boxingring3.jpg);
+  background-size: 100% 100%
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+  background-color: black
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+  background-color: black
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+  background-color: black
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+  background-color: black
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+	background-color: black;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+	background-color: black
+  }
+}
+
+.points {
+	<img src = ./img/letters/letter-w.png height = "20px" width = "20px">
+}
+
+table.style1 td{
+	bg-color: black;
+	color: red;
+	align: center;
+	}
+
+table.style2 td{
+	bg-color: black;
+	color: white;
+	align: center;
+	}
+	
+#myVideo {
+   margin-left: auto;
+   margin-right: auto;
+   display: block
+}
+
+img.title{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: black;
+  color: red;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: black;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
